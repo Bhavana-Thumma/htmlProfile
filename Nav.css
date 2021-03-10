@@ -64,8 +64,13 @@ width: 60%;
 background-color: hotpink;
 }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 400px) {
 .proj {
 width: 100%;
+background-color: rgb(132, 0, 255);
+align-content: center;
+float:left;
+width: 75%;
+margin-left: 40px;
 }
 }
