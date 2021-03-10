@@ -50,7 +50,7 @@ ul.n1 {
   width: 26%;
   padding: 20px;
   margin-top: 50px;
-  margin-right: 20px;
+  margin-right: 50px;
   margin-left: 40px;
   }
 .proj:hover{
@@ -58,13 +58,13 @@ ul.n1 {
   color: black;     
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
 .proj {
 width: 60%;
 background-color: hotpink;
 }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
 .proj {
 width: 100%;
 }
