@@ -3,29 +3,58 @@
     <head>
         <meta charset="UTF-8">
         <title>Welcome!!!!!!</title>
-        <link rel="stylesheet" href="style1.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>  
-       
-        
-        <h2>Hi, Welcome to my website! <br>
-        I'm Bhavana, and this is all about me.
-        <div class="btn-group">
-            <a href="http://127.0.0.1:5500/About.html"> <button>Resume</button></a>
-            <a href="http://127.0.0.1:5500/Qualification.html"> <button>Qualification</button></a>
-            <a href="http://127.0.0.1:5500/Projects.html"> <button>Projects</button></a>
-            <a href="http://127.0.0.1:5500/Contact.html"> <button>contact</button></a>
-  
-          </div>
-        </h2>
-        
-        <!--<div class="btn-group">
-          <a href="/home/bhavana/Downloads/Module20_CSS_Assignment1.html"> <button>View Resume</button></a>
-          <a href="/home/bhavana/Downloads/3.html"> <button>Hobbies</button></a>
-          <a href="/home/bhavana/Downloads/4.html"> <button>Skills</button></a>
-          <a href="/home/bhavana/Downloads/5.html"> <button>Goal</button></a>
+        <style>
+        .ind {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-family: 'serif';
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%);
+        color: darkgray;
+        }
 
-        </div>-->
+        body  
+        {
+          background-image: url("1.jpg");
+          background-color: #cccccc;
+        }
+
+        .btn-group button {
+          background-color:darkgrey;
+          border: 1px solid #0d5c74;
+          color: white;
+          padding: 15px 35px;
+          float: left;
+          margin: auto;
+          font-size: 100%;
+        }
+              
+        .btn-group button:not(:last-child) {
+          border-right: none; /* Prevent double borders */
+        }
+        
+        /* Add a background color on hover */
+        .btn-group button:hover {
+          background-color: #154285;
+        }
+        </style>
+    </head>      
+        
+    <div class="ind">
+    <h2>Hi, Welcome to my website!</h2>
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <a href="http://127.0.0.1:5500/About.html"><button type="button" class="btn btn-secondary">Resume</button></a>
+        <a href="http://127.0.0.1:5500/Qualification.html"><button type="button" class="btn btn-secondary">Qualification</button></a>
+        <a href="http://127.0.0.1:5500/Projects.html"><button type="button" class="btn btn-secondary">Projects</button></a>
+        <a href="http://127.0.0.1:5500/Contact.html"><button type="button" class="btn btn-secondary">contact</button></a>
+      </div>
+    </div>
+        
         <img src="">
                   
     </body>

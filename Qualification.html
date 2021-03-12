@@ -3,61 +3,89 @@
     <title>QualificationPage</title>
     <BODY>
         <head>
+            <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-
-            <ul class = "n1">
-                <li class = "nav"><a href="http://127.0.0.1:5500/About.html">About</a></li>
-                <li class = "nav"><a href="http://127.0.0.1:5500/Qualification.html">Qualification</a></li>
-                <li class= "nav"><a href="http://127.0.0.1:5500/Projects.html">Projects</a></li>
-                <li class= "nav"><a href="http://127.0.0.1:5500/Contact.html">Contact</a></li>
-            </ul>
-            <link rel="stylesheet" href="Nav.css">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
             <link rel="stylesheet" href="style.css">
+            <style>
+            .setSize {
+                padding-right: 15px;
+                padding-left: 15px
+            }
+            </style>
         </head>
-        <h2>Education</h2>
 
-        <table border=2>
-            <tr>
-                <th>Course</th>
-                <th>Institute</th>
-                <th>CGPA</th>
-            </tr>
-            <tr>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="http://127.0.0.1:5500/index.html">Home</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li ><a href="http://127.0.0.1:5500/About.html">About</a></li>
+                <li><a href="http://127.0.0.1:5500/Qualification.html">Qualification</a></li>
+                <li><a href="http://127.0.0.1:5500/Projects.html">Projects</a></li>
+                <li><a href="http://127.0.0.1:5500/Contact.html">Contact</a></li>
+              </ul>
+            </div>
+        </nav>
+        <div style="margin-left: 2%;">
+            <h3>Education</h3>
+
+            <table class="table table-hover">
+            <thead>
+                <tr>
+                <th scope="col">Course</th>
+                <th scope="col">Institute</th>
+                <th scope="col">CGPA</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
                 <td>SSC</td>
                 <td>Z P Secondary School</td>
                 <td>9.8</td>
-            </tr>
-            <tr>
+                </tr>
+                <tr>
                 <td>PUC - MBiPC</td>
                 <td>RGUKT-B</td>
-                <td>8.46</td>
-            </tr>
-            <tr>
+                <td>8.60</td>
+                </tr>
+                <tr>
                 <td>B.Tech ECE</td>
                 <td>RGUKT-B</td>
                 <td>8.60</td>
-            </tr>
-        </table>
+                </tr>
+            </tbody>
+            </table>
 
-        <h2>Work Experience</h2>
-        <p>Not Applicable</p>
+            <h3>Work Experience</h3>
+            <p>Not Applicable</p>
 
-        <h2>Skills</h2>
-        <ol>
-            <li>Python</li>
-            <div class="container">
-                <div class="skills py">80%</div>
+            <h3>Skills</h3>
+            <div class="setSize" style="width:25%">
+                <h4>Python</h4>
+                <div class="progress">
+                    <div class="progress-bar" style="width:80%">80%</div>
+                </div>
             </div>
-            <li>Java</li>
-            <div class="container">
-                <div class="skills java">70%</div>
+            <div class="setSize" style="width:25%">
+                <h4>Java</h4>
+                <div class="progress">
+                    <div class="progress-bar" style="width:70%">70%</div>
+                </div>
             </div>
-            <li>Data Structures</li>
-            <div class="container">
-                <div class="skills ds">60%</div>
+            <div class="setSize" style="width:25%">
+                <h4>Data Structures</h4>
+                <div class="progress">
+                    <div class="progress-bar" style="width:60%">60%</div>
+                </div>
             </div>
-        </ol>
-        <a href="http://127.0.0.1:5500/Projects.html";  text-align: center;><button type="button"  class="button">Next</button></a>
 
+            <div align='center'>
+                <a href="http://127.0.0.1:5500/Projects.html";  text-align: center;><button type="button"  class="button">Next</button></a>
+            </div>
+        </div>
     </BODY>
 </html>
