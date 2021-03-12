@@ -5,12 +5,13 @@
   margin-left: 0px;
   background-color: #eae7f0;
   border: 2px solid #dddddd;
-  padding-left:12px
+  padding-left:12px;
+  width: 25%
             
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1042px) {
 .this {
-background-color: rgb(190, 159, 219);
+background-color: rgb(235, 224, 245);
 margin-top: 5px;
 margin-bottom: 10px;
 margin-right: 1050px;
@@ -33,20 +34,5 @@ width: 65%
   }
 }
 
-.button {
-  background-color: darkgray;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  }
-button:hover{
-  background-color: rgb(132, 0, 255);
-} 
 
    
